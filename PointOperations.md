@@ -10,5 +10,8 @@ $P_{out} = (P_{out} - c) × \frac{b - a}{d - c}$ + a
 Values below 0 are set to 0 and values about 255 are set to 255.
 
 ### Histogram
-Same as above, but for the values of c and d we plot the distribution of intensities an pick the intensity values at 5 and 95 percentile.
-
+Create a frequency distribution of intensities in image and use it to calculate cumulative frequence for any given intensity in that image.
+Now, <br>
+$I_{ij} = I_{max} × c_{p_{i,j}}$
+<br>
+Here, $I{max}$ is the maximum intensity possible (255), and $c_{p_{i,j}}$ is the cumulative frequency of intensity $I_{i,j}$ at i,j.
