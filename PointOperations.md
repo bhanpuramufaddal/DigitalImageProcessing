@@ -10,5 +10,5 @@ $P_{out} = (P_{out} - c) × \frac{b - a}{d - c}$ + a
 Values below 0 are set to 0 and values about 255 are set to 255.
 
 ### Histogram
-Same as above, but for the values of a and b we plot the distribution of intensities an pick the intensity values at 5 and 95 percentile.
+Same as above, but for the values of c and d we plot the distribution of intensities an pick the intensity values at 5 and 95 percentile.
 
